@@ -1,0 +1,11 @@
+// Bob needs a fast way to calculate the volume of a cuboid with three values: the length, width and height of the cuboid. Write a function to help Bob with this calculation.
+
+let l1 = 1;
+let w1 = 2;
+let h1 = 2;
+
+function getVolumeOfCuboid(length, width, height) {
+      return length * width * height;
+    }
+
+  console.log(getVolumeOfCuboid(l1,w1,h1));//4
